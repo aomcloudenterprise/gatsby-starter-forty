@@ -34,6 +34,11 @@ module.exports = {
         ],
       },
     },
+    resolve: "gatsby-remark-embed-youtube",
+    options: {
+      width: 800,
+      height: 400
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
